@@ -1,0 +1,22 @@
+{
+    "name": "jlt/symfony-dic",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jltoutant",
+            "email": "jl.toutant@ubitransports.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dependency-injection": "^4.1",
+        "symfony/config": "^4.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    }
+}
